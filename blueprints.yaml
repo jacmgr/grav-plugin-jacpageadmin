@@ -1,0 +1,23 @@
+name: jACpagadmin
+version: 0.0.1
+description: "A Type of Page Administration"
+icon: asterisk
+author:
+  name: jacmgr
+  email: jacmgr@yahoo.com
+  url: http://jhinline.com/grav
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool

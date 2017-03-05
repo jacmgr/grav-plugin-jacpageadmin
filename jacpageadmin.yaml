@@ -1,0 +1,8 @@
+enabled: true
+active: true
+route_edit: /pageadmin/edit
+route_create: /pageadmin/create
+route_source: /pageadmin/source
+route_home: /pageadmin/home
+expertmode: true
+built_in_css: false                 #not used
