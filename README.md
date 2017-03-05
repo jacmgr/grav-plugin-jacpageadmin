@@ -24,7 +24,7 @@ I will not be maintaining the code as an official grav plugin.  Use it at your o
 
 I don't know anything about git and version control and pushes and pulls, so I won't be doing anything like that.  I just periodically upload my files to this repository.
 
-This plugin is inspired by some other front end editing plugins.  One allowed you to edit an existing page and nothing else.[Bluetzinn's editable](https://github.com/bleutzinn/grav-plugin-editable)  The other allows you to create a new page and nothing else.([Bluetzinn's add-page-by-form](https://github.com/bleutzinn/grav-plugin-add-page-by-form))  In any case, both of them helped me understand a lot about [Grav](http://github.com/getgrav/grav).  I was looking for more of an all in one pageadmin function that I could control with permissions and templates.
+This plugin is inspired by some other front end editing plugins.  One allowed you to edit an existing page and nothing else.[Bluetzinn's editable](https://github.com/bleutzinn/grav-plugin-editable)  The other allows you to create a new page and nothing else.([Bluetzinn's add-page-by-form](https://github.com/bleutzinn/grav-plugin-add-page-by-form))  In any case, both of them helped me understand a lot about [Grav](http://github.com/getgrav/grav). And, they supplied the SimpleMDE javascript and textarea configuration methods that I used for my edit text area.
 
 # Installation
 
@@ -185,8 +185,7 @@ Not implemented. Not planned to implement yet.
 
 A big problem I had was setting default text values into the front end forms field.  Apparently there is NO WAY TO DO THAT from your own plugins using form plugin functionality.  I posted a question (enhancement) about that to the [grav-plugin-form](https://github.com/getgrav/grav-plugin-form/issues/123) repository.
 
-My work around was to 
-OK. Would be a nice enhancement!  I have a workaround for my current case.
+My work around was to do the following:
 
 In the form definition use a default attribute like this:
 
